@@ -1,0 +1,26 @@
+{
+    "name": "weather_equipment_guide_card",
+    "source": "src/index.ts",
+    "module": "dist/weather-equipment-guide-card.js",
+    "targets": {
+        "module": {
+            "includeNodeModules": true
+        }
+    },
+    "scripts": {
+        "watch": "parcel watch",
+        "build": "parcel build"
+    },
+    "dependencies": {
+        "@swc/helpers": "^0.5.13",
+        "custom-card-helpers": "^1.9.0",
+        "home-assistant-js-websocket": "^9.4.0",
+        "lit": "^3.2.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.13",
+        "jest": "^29.7.0",
+        "parcel": "^2.12.0",
+        "ts-jest": "^29.2.5"
+    }
+}
